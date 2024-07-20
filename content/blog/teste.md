@@ -6,7 +6,7 @@ date = 2021-10-03
 tags = ["rust", "outros"]
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+makoto é o amor da minha vida 
 
 <!-- more -->
 
