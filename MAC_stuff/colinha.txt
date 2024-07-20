@@ -1,0 +1,17 @@
+comando para executar o servidor local acessível pra outros dispositivos na rede:
+
+zola serve --interface 0.0.0.0 --base-url /
+
+---------------------------------------------------------------------------------
+
+para checar o IP:
+
+ifconfig
+
+procurar por inet6
+
+----------------------------------------------------------------------------------
+
+pra instalar a versão específica do zola (0.18.0) usar o zola.rb daqui
+
+brew install zola.rb
