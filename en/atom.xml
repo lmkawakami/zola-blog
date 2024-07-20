@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Papaya</title>
+    <subtitle>A clean Zola theme for blogging and projects</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://justintennant.me/papaya/en/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://justintennant.me/papaya"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-10-03T00:00:00+00:00</updated>
+    <id>https://justintennant.me/papaya/en/atom.xml</id>
+    <entry xml:lang="en">
+        <title>What is Zola</title>
+        <published>2021-10-03T00:00:00+00:00</published>
+        <updated>2021-10-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://justintennant.me/papaya/en/blog/what-is-zola/"/>
+        <id>https://justintennant.me/papaya/en/blog/what-is-zola/</id>
+        
+        <summary type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Farewell to Cambridge</title>
+        <published>2021-10-02T00:00:00+00:00</published>
+        <updated>2021-10-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://justintennant.me/papaya/en/blog/farewell-to-cambridge/"/>
+        <id>https://justintennant.me/papaya/en/blog/farewell-to-cambridge/</id>
+        
+        <summary type="html">&lt;p&gt;Gently I leave, just as I gently came; I gently wave goodbye to the clouds in the western sky.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Relative Path of Image</title>
+        <published>2021-10-01T00:00:00+00:00</published>
+        <updated>2021-10-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://justintennant.me/papaya/en/blog/blog-com-imagem/"/>
+        <id>https://justintennant.me/papaya/en/blog/blog-com-imagem/</id>
+        
+        <summary type="html">&lt;p&gt;Use &lt;code&gt;img()&lt;&#x2F;code&gt; to specify the relative path of image.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Example Software</title>
+        <published>2021-08-11T00:00:00+00:00</published>
+        <updated>2021-08-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://justintennant.me/papaya/en/projects/project-1/"/>
+        <id>https://justintennant.me/papaya/en/projects/project-1/</id>
+        
+        <summary type="html">&lt;p&gt;This is the first software I wrote!&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
