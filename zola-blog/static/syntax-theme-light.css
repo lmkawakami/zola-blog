@@ -101,7 +101,7 @@ font-style: italic;
  color: #39adb5;
 }
 .z-*url*, .z-*link*, .z-*uri* {
-font-style: underline;
+text-decoration: underline;
 }
 .z-constant.z-numeric.z-line-number.z-find-in-files {
  color: #c17e70;
@@ -170,7 +170,7 @@ font-style: italic;
 }
 .z-markup.z-underline {
  color: #f76d47;
-font-style: underline;
+text-decoration: underline;
 }
 .z-markup.z-quote .z-punctuation.z-definition.z-blockquote.z-markdown {
  color: #e7eaec;

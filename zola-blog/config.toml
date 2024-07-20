@@ -1,20 +1,65 @@
 # The URL the site will be built for
-base_url = "https://otokam.io/"
+base_url = "https://justintennant.me/papaya"
 
 theme = "papaya"
+default_language = "pt"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+# When set to "true", a search index is built from the pages and section
+# content for `default_language`.
+build_search_index = false
+
+# When set to "true", a feed is automatically generated.
+generate_feed = true
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+# When set to "true", all code blocks are highlighted.
 highlight_code = true
 
+# The theme to use for code highlighting.
+# See Zola configuration docs for list of allowed values.
+highlight_theme = "css"
+highlight_themes_css = [
+  { theme = "material-dark", filename = "syntax-theme-dark.css" },
+  { theme = "material-light", filename = "syntax-theme-light.css" },
+]
+
 [languages]
+
+[languages.pt]
+title = "Meu Blog"
+description = "Esse é o meu blog"
+base_url = "https://justintennant.me/papaya/pt"
+generate_feed = true
+# The taxonomies to be rendered for the site and their configuration of the default languages
+taxonomies = [
+    { name = "tags", feed = true, lang = "pt" },
+    { name = "categories", feed = true, lang = "pt" },
+]
+
+[languages.pt.translations]
+projects = "projetos"
+blog = "blog"
+about = "sobre"
+recent_projects = "projetos recentes"
+more_projects = "mais projetos"
+recent_blog_posts = "postagens recentes"
+more_blog_posts = "mais postagens"
+tag = "tag"
+tags = "tags"
+to_all_tags = "ver todas as tags"
+category = "categoria"
+categories = "categorias"
+to_all_categories = "ver todas as categorias"
+view_by = "ver por"
+other = "outros"
+minute = "minuto"
+prev_page = "<<"
+next_page = ">>"
+# Customize your post date format. See: https://tera.netlify.app/docs/#date
+date_format = "%d/%m/%Y"
 
 [languages.en]
 title = "Papaya"
@@ -50,14 +95,48 @@ next_page = "To older posts"
 date_format = "%B %e, %Y"
 
 [extra]
-# Put all your custom variables here
-color_mode = "auto"
+# Development environment. Used by the page macros to load remote content only when in "prod" mode
+env = "ZOLA_ENV"
+
+# Color theme mode. Options: light, dark, auto (automatically switch depending on OS/user agent settings)
+color_mode = "light"
+
+# List of Papaya navigational menu items. Used to construct the navigation bar. See the README for item schema.
 menu_items = [
     { name = "projects", url = "$LANG_BASE_URL/projects", show_recent = true, recent_items = 3, recent_trans_key = "recent_projects", more_trans_key = "more_projects" },
     { name = "blog", url = "$LANG_BASE_URL/blog", show_recent = true, recent_items = 3, recent_trans_key = "recent_blog_posts", more_trans_key = "more_blog_posts" },
     # tag is not a zola section, it's just a link.
     { name = "tags", url = "$LANG_BASE_URL/tags" },
     { name = "about", url = "$LANG_BASE_URL/about", show_recent = false },
+]
+
+[extra.images]
+# Width defined in pixels
+max_width = 2500
+
+# Open Graph Protocol objects. See: https://ogp.me/
+[extra.ogp]
+locale = "en_US"
+first_name = "Papaya"
+last_name = "Tiliqua"
+gender = "female"
+username = "tiliquasp"
+
+# Footer social links; full options listed in macros/social.html
+[extra.social]
+email = "papaya@tiliqua.sp"
+tiktok = "@dankostudio_"
+instagram = "dankostudio_"
+whatsapp = "13135"
+youtube = "dankostudio"
+github = "papaya"
+linkedin = "papayatiliqua"
+twitter = "your-user-name"
+zhihu = "your-user-name"
+weibo = "your-user-name"
+bilibili = "your-user-name"
+other = [
+    { name = "BTC", font_awesome = "fa-brands fa-btc", url = "https://www.bitcoin.com/" }
 ]
 
 # CDN links

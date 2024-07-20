@@ -58,6 +58,39 @@
   </a>
   {% endif %}
 
+  {% if social_config.whatsapp %}
+  <a href="https://www.tiktok.com/{{ social_config.whatsapp }}" aria-label="Open {{ social_config.whatsapp }} TikTok" target="_blank">
+    <span class="icon is-large">
+      <i class="fa-brands fa-whatsapp fa-lg" aria-hidden="true" title="Whatsapp"></i>
+    </span>
+  </a>
+  {% endif %}
+
+  {% if social_config.tiktok %}
+  <a href="https://www.tiktok.com/{{ social_config.tiktok }}" aria-label="Open {{ social_config.tiktok }} TikTok" target="_blank">
+    <span class="icon is-large">
+      <i class="fa-brands fa-tiktok fa-lg" aria-hidden="true" title="TikTok"></i>
+    </span>
+  </a>
+  {% endif %}
+
+  {% if social_config.instagram %}
+  <a href="https://www.instagram.com/{{ social_config.instagram }}" aria-label="Open {{ social_config.instagram }} Instagram" target="_blank">
+    <span class="icon is-large">
+      <i class="fa-brands fa-instagram fa-lg" aria-hidden="true" title="Instagram"></i>
+      <!-- <i class="fa-brands fa-square-instagram" aria-hidden="true" title="Instagram"></i> -->
+    </span>
+  </a>
+  {% endif %}
+
+  {% if social_config.instagram %}
+  <a href="https://www.instagram.com/{{ social_config.youtube }}" aria-label="Open {{ social_config.youtube }} YouTube" target="_blank">
+    <span class="icon is-large">
+      <i class="fa-brands fa-youtube fa-lg" aria-hidden="true" title="YouTube"></i>
+    </span>
+  </a>
+  {% endif %}
+
   {% if config.generate_feed %}
   <a href="{{ base_url }}/{{ config.feed_filename }}" aria-label="Open atom xml feed" target="_blank">
     <span class="icon is-large">
