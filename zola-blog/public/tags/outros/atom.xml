@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt">
+    <title>Meu Blog - outros</title>
+    <subtitle>Esse é o meu blog</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://justintennant.me/papaya/tags/outros/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://justintennant.me/papaya"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-10-04T00:00:00+00:00</updated>
+    <id>https://justintennant.me/papaya/tags/outros/atom.xml</id>
+    <entry xml:lang="pt">
+        <title>Sem resumo</title>
+        <published>2021-10-04T00:00:00+00:00</published>
+        <updated>2021-10-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://justintennant.me/papaya/blog/no-summary/"/>
+        <id>https://justintennant.me/papaya/blog/no-summary/</id>
+        
+        <content type="html" xml:base="https://justintennant.me/papaya/blog/no-summary/">&lt;p&gt;Esta página não tem resumo, conforme descrito na &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;page&#x2F;#summary&quot;&gt;documentação do Zola&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="pt">
+        <title>Post Teste</title>
+        <published>2021-10-03T00:00:00+00:00</published>
+        <updated>2021-10-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://justintennant.me/papaya/blog/teste/"/>
+        <id>https://justintennant.me/papaya/blog/teste/</id>
+        
+        <summary type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="pt">
+        <title>O que é Zola</title>
+        <published>2021-10-03T00:00:00+00:00</published>
+        <updated>2021-10-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://justintennant.me/papaya/blog/what-is-zola/"/>
+        <id>https://justintennant.me/papaya/blog/what-is-zola/</id>
+        
+        <summary type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="pt">
+        <title>Mais sobre cebolas</title>
+        <published>2021-10-02T00:00:00+00:00</published>
+        <updated>2021-10-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://justintennant.me/papaya/blog/another-post/"/>
+        <id>https://justintennant.me/papaya/blog/another-post/</id>
+        
+        <summary type="html">&lt;p&gt;Muitas espécies são boas escavadoras. Mais espécies são terrestres ou fossoriais (escavadoras) do que arborícolas (trepadeiras) ou aquáticas.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="pt">
+        <title>Caminho Relativo da Imagem</title>
+        <published>2021-10-01T00:00:00+00:00</published>
+        <updated>2021-10-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://justintennant.me/papaya/blog/blog-com-imagem/"/>
+        <id>https://justintennant.me/papaya/blog/blog-com-imagem/</id>
+        
+        <summary type="html">&lt;p&gt;Use &lt;code&gt;img()&lt;&#x2F;code&gt; para especificar o caminho relativo da imagem.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
